@@ -1,3 +1,4 @@
+
 @media (min-width: 768px) { 
 body{
    display: flex;
@@ -51,6 +52,7 @@ div{
 
 
 /* @media (min-width: 768px) {
+
     body {
         box-sizing: border-box;
         width: 960px;
@@ -124,7 +126,5 @@ div{
         line-height: 150px;
         float: left;
     }
-
-} */
-
-
+}
+*/
