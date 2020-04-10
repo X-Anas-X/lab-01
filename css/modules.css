@@ -1,3 +1,4 @@
+
 header{
     background-color: rgb(250, 6, 6);
 }
@@ -91,3 +92,11 @@ header{
         background-color: rgb(201, 182, 252);
     }
 }
+=======
+
+/* @media(min-width: 960px) {
+    div {
+        background-color: burlywood;
+    }
+} */
+
