@@ -1,14 +1,58 @@
-@media (max-width: 767px) {
+
+/* mobile */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+main{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90%;
+    
+} 
+
+/* tablet */
+@media screen and (min-width:560px){
+    main{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:760px) and (max-width:960px){
+    main{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+}
+
+/* @media (max-width: 767px) {
 body {
   flex-direction: column;
   /* border: 1px solid gray; */
-}
-.container {
+/* }
+/* .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-div {
-    display: flex;
+div { */
+/*     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid gray;
@@ -19,8 +63,8 @@ section div{
 }
 section{
   background: border-box;
-}
-.a{
+} */
+/* .a{
   height: 10vh;
   background-color: pink;
 }
@@ -36,11 +80,11 @@ section{
 height: 16vh;
 background-color: pink;
 
-}
-.d{
+} */
+/* .d{
   height: 16vh;
   background-color: pink;
-}
+} */
 
  
 
@@ -236,4 +280,5 @@ background-color: pink;
         line-height: 80px;
         margin-bottom: 30px;
     }
+
 
