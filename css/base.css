@@ -1,0 +1,42 @@
+/* mobile */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+main{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 90%;
+    
+} 
+
+/* tablet */
+@media screen and (min-width:560px){
+    main{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:760px) and (max-width:960px){
+    main{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+}
